@@ -145,12 +145,12 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g-common/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_SYSTEM)/bin/sensorhubservice \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorhub.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorhubservice.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/sensorhubs.universal5420.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensors.universal5420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/sensors.universal5420.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensirion_h_3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensirion_h_3.so
+  vendor/samsung/ha3g-common/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensorhubs.universal5420.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5420.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensirion_h_3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_h_3.so
 
 # NFC Firmware
 PRODUCT_COPY_FILES += \
