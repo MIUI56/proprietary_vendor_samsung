@@ -148,8 +148,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g-common/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensorhubservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubservice.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensorhubs.universal5420.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.universal5420.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/hw/sensorhubs.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal5420.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/hw/sensors.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal5420.so \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/libsensirion_h_3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_h_3.so
 
 # NFC Firmware
@@ -161,7 +161,31 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ha3g-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml
+    vendor/samsung/ha3g-common/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+     vendor/samsung/ha3g-common/proprietary/vendor/app/FFFFFFFF000000000000000000000001.drbin:$(TARGET_COPY_OUT_VENDOR)/app/FFFFFFFF000000000000000000000001.drbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/02010000080300030000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/02010000080300030000000000000000.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/07060000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07060000000000000000000000000000.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000003.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000003.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000007.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000007.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000008.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000008.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000009.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000009.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000010.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000010.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000011.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000011.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin 
+    
 
   
     
