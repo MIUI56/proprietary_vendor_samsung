@@ -35,20 +35,20 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt Audio and Samsung sound effects. Because of the Yamaha chip I HATE THIS
 PRODUCT_COPY_FILES += \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/hw/audio.primary.universal5420.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.vendor.universal5420.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libymc_codecctrl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libymc_codecctrl.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libymc_config.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libymc_config.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungSoundbooster_ext.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_Resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_Samsung_Resampler.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_soundaliveresampler.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord_ns.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord_zoom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungRecord_zoom.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundAlive_SRC192_ver205.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SamsungRec_V04004.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SamsungRec_V04004.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_DNSe_NRSS_ver226.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_DNSe_NRSS_ver226.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_AudioZoom_v102.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_Samsung_AudioZoom_v102.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundBooster_ver402.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_SoundBooster_ver402.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/hw/audio.primary.universal5420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.vendor.universal5420.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libymc_codecctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libymc_codecctrl.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libymc_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/libymc_config.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungSoundbooster_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungSoundbooster_ext.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_Resampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_Samsung_Resampler.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungRecord.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord_ns.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungRecord_ns.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/libsamsungRecord_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungRecord_zoom.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC192_ver205.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SamsungRec_V04004.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_V04004.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_DNSe_NRSS_ver226.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_DNSe_NRSS_ver226.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_AudioZoom_v102.so:$(TARGET_COPY_OUT_VENDOR/lib/lib_Samsung_AudioZoom_v102.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundBooster_ver402.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver402.so \
 
 # Yamaha data files
 PRODUCT_COPY_FILES += \
@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g-common/proprietary/vendor/etc/ymc/param/aec_sidetone_vol_nb.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/ymc/param/aec_sidetone_vol_nb.dat \
   vendor/samsung/ha3g-common/proprietary/vendor/etc/ymc/param/aec_sidetone_vol_wb.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/ymc/param/aec_sidetone_vol_wb.dat \
   vendor/samsung/ha3g-common/proprietary/vendor/etc/ymc/param/aec_sp_dac1.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/ymc/param/aec_sp_dac1.dat \
-  vendor/samsung/ha3g-common/proprietary/vendor/usr/share/alsa/alsa.conf:$(TARGET_COPY_OUT_SYSTEM)/usr/share/alsa/alsa.conf \
+  vendor/samsung/ha3g-common/proprietary/vendor/usr/share/alsa/alsa.conf:$(TARGET_COPY_OUT_VENDOR)/usr/share/alsa/alsa.conf \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so
 
 # Bluetooth
@@ -184,8 +184,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin 
-    
+    vendor/samsung/ha3g-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    vendor/samsung/ha3g-common/proprietary/vendor/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
+    vendor/samsung/ha3g-common/proprietary/vendor/lib/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmaet.so \
+    vendor/samsung/ha3g-common/proprietary/vendor/lib/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsxqk_skia.so \
+    vendor/samsung/ha3g-common/proprietary/vendor/lib/libsxqk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsxqk.so \
+   vendor/samsung/ha3g-common/proprietary/vendor/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/battery_low.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_low.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/battery_temperature_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_error.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/battery_temperature_limit.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_temperature_limit.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/lcd_density.txt:$(TARGET_COPY_OUT_SYSTEM)/media/lcd_density.txt \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/percentage.spi:$(TARGET_COPY_OUT_SYSTEM)/media/percentage.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/battery_cover.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_cover.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/dock_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/particle_intro.spi:$(TARGET_COPY_OUT_SYSTEM)/media/particle_intro.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/particle_loop.spi:$(TARGET_COPY_OUT_SYSTEM)/media/particle_loop.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/wireless_left.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/wave_loop.spi:$(TARGET_COPY_OUT_SYSTEM)/media/wave_loop.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/wireless_right.spi:$(TARGET_COPY_OUT_SYSTEM)/media/wireless_right.spi 
 
   
     
