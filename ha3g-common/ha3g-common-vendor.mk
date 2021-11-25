@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundAlive_SRC192_ver205.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC192_ver205.so \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SamsungRec_V04004.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_V04004.so \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_DNSe_NRSS_ver226.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_DNSe_NRSS_ver226.so \
-  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_AudioZoom_v102.so:$(TARGET_COPY_OUT_VENDOR/lib/lib_Samsung_AudioZoom_v102.so \
+  vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_Samsung_AudioZoom_v102.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_Samsung_AudioZoom_v102.so \
   vendor/samsung/ha3g-common/proprietary/vendor/lib/lib_SoundBooster_ver402.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver402.so \
 
 # Yamaha data files
@@ -199,7 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ha3g-common/proprietary/vendor/media/dock_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/dock_error.spi \
     vendor/samsung/ha3g-common/proprietary/vendor/media/particle_intro.spi:$(TARGET_COPY_OUT_SYSTEM)/media/particle_intro.spi \
     vendor/samsung/ha3g-common/proprietary/vendor/media/particle_loop.spi:$(TARGET_COPY_OUT_SYSTEM)/media/particle_loop.spi \
-    vendor/samsung/ha3g-common/proprietary/vendor/media/wireless_left.spi \
+    vendor/samsung/ha3g-common/proprietary/vendor/media/wireless_left.spi:$(TARGET_COPY_OUT_SYSTEM)/media/wireless_left.spi \
     vendor/samsung/ha3g-common/proprietary/vendor/media/wave_loop.spi:$(TARGET_COPY_OUT_SYSTEM)/media/wave_loop.spi \
     vendor/samsung/ha3g-common/proprietary/vendor/media/wireless_right.spi:$(TARGET_COPY_OUT_SYSTEM)/media/wireless_right.spi 
 
